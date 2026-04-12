@@ -17,9 +17,8 @@ jobs:
       matrix:
         allow_failures: [false]
         rvm:
-          - 2.4
-          - 2.5
-          - 2.6
+          - 3.3
+          - 3.4
         include:
           - rvm: head
             allow_failures: true
